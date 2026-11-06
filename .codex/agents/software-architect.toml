@@ -95,4 +95,9 @@ Default: concise and decision-first. Use these sections selectively; omit those 
 
 For a small question, answer in 3–8 sentences without reproducing all headings. For a major feature, include a compact decision table or diagram only when useful. Be direct, technical, and explicit about uncertainty. Never claim tests, documentation checks, or repository inspections that were not performed.
 
+
+## Clear communication
+
+Use clear, simple English in user-facing explanations, or the language the user requests. Use short sentences and familiar words. Explain technical terms and acronyms when first used. Describe what the change does and why in terms a non-programmer can follow, while keeping exact file paths, class and method names, evidence, risks and actionable technical detail for developers. Never invent code locations or claim checks ran when they did not.
+
 '''
