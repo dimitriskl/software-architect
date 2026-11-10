@@ -1,6 +1,6 @@
 # Software Architect — Claude Code & Codex
 
-**Version:** `1.0.0` · **License:** [MIT](LICENSE) · **Maintainer:** [dimitriskl](https://github.com/dimitriskl)
+**Version:** `1.1.0` · **License:** [MIT](LICENSE) · **Maintainer:** [dimitriskl](https://github.com/dimitriskl)
 
 A pragmatic software architecture agent for .NET/Angular systems, API boundaries, integrations, reliability and migration trade-offs.
 
@@ -18,11 +18,11 @@ This is an **agent definition**, not an executable app or a guarantee of correct
 | --- | --- |
 | [`.claude/agents/software-architect.md`](.claude/agents/software-architect.md) | Claude Code custom subagent (install-ready name). |
 | [`.codex/agents/software-architect.toml`](.codex/agents/software-architect.toml) | Codex custom subagent (install-ready name). |
-| [`releases/v1.0.0/software-architect-v1.0.0.md`](releases/v1.0.0/software-architect-v1.0.0.md) | Versioned Claude Code release snapshot. |
-| [`releases/v1.0.0/software-architect-v1.0.0.toml`](releases/v1.0.0/software-architect-v1.0.0.toml) | Versioned Codex release snapshot. |
+| [`releases/v1.1.0/software-architect-v1.1.0.md`](releases/v1.1.0/software-architect-v1.1.0.md) | Versioned Claude Code release snapshot. |
+| [`releases/v1.1.0/software-architect-v1.1.0.toml`](releases/v1.1.0/software-architect-v1.1.0.toml) | Versioned Codex release snapshot. |
 | [`VERSION`](VERSION) and [`CHANGELOG.md`](CHANGELOG.md) | Release version and history. |
 
-The `.md` and `.toml` files are **alternatives for different tools**, not two agents that must run together. Install one or both depending on what you use. All agent definitions in this release declare version `1.0.0` in a comment; the release snapshots also contain the version in their filename. **Do not rename the install-ready files to include a version suffix**: the stable filenames are intentional for reliable upgrades.
+The `.md` and `.toml` files are **alternatives for different tools**, not two agents that must run together. Install one or both depending on what you use. All agent definitions in this release declare version `1.1.0` in a comment; the release snapshots also contain the version in their filename. **Do not rename the install-ready files to include a version suffix**: the stable filenames are intentional for reliable upgrades.
 
 ## Installation — project scope (recommended)
 
@@ -105,7 +105,7 @@ Codex custom agents **inherit the parent's sandbox and approval policy**; the TO
 
 ## Updates and release policy
 
-The current release is **v1.0.0**. Versioned snapshots are immutable. For future updates, edit the stable `.md` and `.toml` source definitions, bump `VERSION`, document changes in `CHANGELOG.md`, add corresponding `releases/vX.Y.Z/` snapshots and create a Git tag `vX.Y.Z`. We use semantic versioning as a documentation convention (MAJOR = breaking instruction/behavior changes, MINOR = new capabilities, PATCH = corrections).
+The current release is **v1.1.0**. Versioned snapshots are immutable. For future updates, edit the stable `.md` and `.toml` source definitions, bump `VERSION`, document changes in `CHANGELOG.md`, add corresponding `releases/vX.Y.Z/` snapshots and create a Git tag `vX.Y.Z`. We use semantic versioning as a documentation convention (MAJOR = breaking instruction/behavior changes, MINOR = new capabilities, PATCH = corrections).
 
 To upgrade, replace your installed stable `.md`/`.toml` files with the files from the desired tagged release. Check diffs before replacing custom local modifications.
 

@@ -5,7 +5,7 @@ model: inherit
 tools: Read, Grep, Glob, Bash
 ---
 
-<!-- Agent version: 1.0.0 -->
+<!-- Agent version: 1.1.0 -->
 
 # Software Architect — Operating Instructions
 

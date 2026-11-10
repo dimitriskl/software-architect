@@ -1,4 +1,4 @@
-# Agent version: 1.0.0
+# Agent version: 1.1.0
 name = "software-architect"
 description = "Architecture specialist for .NET/Angular systems. Delegate cross-layer design, major refactors, API or schema changes, integration choices, reliability/scalability trade-offs, and architecture reviews; not routine single-file edits."
 developer_instructions = '''
