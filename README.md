@@ -111,6 +111,7 @@ To upgrade, replace your installed stable `.md`/`.toml` files with the files fro
 
 ## Official documentation
 
+- [MyDevFactory](https://github.com/dimitriskl/mydevfactory)
 - [Claude Code custom subagents](https://code.claude.com/docs/en/sub-agents)
 - [Codex custom subagents](https://developers.openai.com/codex/subagents)
 
